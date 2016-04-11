@@ -14,7 +14,7 @@ import java.net.URI;
 public class Service {
 
     private static final String USER_AGENT = "Mozilla/5.0";
-    private static final String URI = "http://integracao.spimplantes.itwv.com.br/?IntegrationUranet=6dc26e22f165a5700741dfa49f0ad162";
+    private static final String URI = "http://";
 
     protected String get() throws Exception {
         HttpClient client = new HttpClient(new URI(URI));
